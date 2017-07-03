@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "E:\\Git\\smallcollect\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 48,
+                    "endOffset": 99
+                },
+                "from": {
+                    "file": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\values-v18\\values-v18.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 229,
+                        "endColumn": 48,
+                        "endOffset": 273
+                    }
+                }
+            }
+        ]
+    }
+]

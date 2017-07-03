@@ -271,6 +271,7 @@ public class SmallTabArea extends Activity implements OnClickListener, OnItemCli
         @Override
         public void run() {
 
+            //上传数据到服务器
             try {
                 int bytesum = 10 * 1024;
                 int datasum = 9 + 2 + 4 + 1 + 2 + 15;

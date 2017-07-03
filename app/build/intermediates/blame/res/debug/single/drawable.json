@@ -1,11 +1,11 @@
 [
     {
-        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\service_btn_bg.png",
-        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable\\service_btn_bg.png"
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable\\abc_dialog_material_background_light.xml"
     },
     {
-        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\small_command_btn_bg1.xml",
-        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable\\small_command_btn_bg1.xml"
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\service_btn_bg.png",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable\\service_btn_bg.png"
     },
     {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\m_d_selector.xml",
@@ -16,24 +16,32 @@
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable\\tabs_system_item.xml"
     },
     {
-        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\small_title_button.xml",
-        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable\\small_title_button.xml"
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
     },
     {
-        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_checked_style.xml",
-        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable\\checkbox_checked_style.xml"
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable\\abc_ratingbar_full_material.xml"
     },
     {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\service_live_icon.png",
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable\\service_live_icon.png"
     },
     {
-        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_bg.xml",
-        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable\\login_bg.xml"
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable\\abc_switch_thumb_material.xml"
     },
     {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\small_setting_gc.xml",
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable\\small_setting_gc.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_other_press.xml",
@@ -44,72 +52,56 @@
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable\\m_s_selector.xml"
     },
     {
-        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\service_arrow_down.png",
-        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable\\service_arrow_down.png"
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\m_h_selector.xml",
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable\\m_h_selector.xml"
     },
     {
-        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\m_l_selector.xml",
-        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable\\m_l_selector.xml"
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable\\abc_text_cursor_material.xml"
     },
     {
-        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\small_command_btn_bg.xml",
-        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable\\small_command_btn_bg.xml"
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\service_medical_icon.png",
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable\\service_medical_icon.png"
     },
     {
-        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_pressed_style.xml",
-        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable\\btn_pressed_style.xml"
-    },
-    {
-        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\s_j2_icon.png",
-        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable\\s_j2_icon.png"
-    },
-    {
-        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\s_z_icon.png",
-        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable\\s_z_icon.png"
-    },
-    {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\small_tabs_btn_bg.xml",
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable\\small_tabs_btn_bg.xml"
-    },
-    {
-        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rect_white_bg.png",
-        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable\\rect_white_bg.png"
     },
     {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_div_bg.xml",
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable\\login_div_bg.xml"
     },
     {
-        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\s_j_icon.png",
-        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable\\s_j_icon.png"
-    },
-    {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\s_setting_btn_bg.xml",
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable\\s_setting_btn_bg.xml"
     },
     {
-        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\small_collect_list_result.xml",
-        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable\\small_collect_list_result.xml"
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\test.png",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\823d3db56f26c620e09c22de0eef2a2326b39425\\output\\res\\drawable\\test.png"
     },
     {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\service_arrow_up.png",
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable\\service_arrow_up.png"
     },
     {
-        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\s_pop_selector.xml",
-        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable\\s_pop_selector.xml"
-    },
-    {
-        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\s_c_icon.png",
-        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable\\s_c_icon.png"
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable\\abc_btn_check_material.xml"
     },
     {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\service_life_icon.png",
@@ -124,6 +116,118 @@
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable\\s_setting_tab_check.xml"
     },
     {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable\\abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\small_command_btn_bg1.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable\\small_command_btn_bg1.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\small_title_button.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable\\small_title_button.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_checked_style.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable\\checkbox_checked_style.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_bg.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable\\login_bg.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\service_arrow_down.png",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable\\service_arrow_down.png"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logger.png",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\823d3db56f26c620e09c22de0eef2a2326b39425\\output\\res\\drawable\\logger.png"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\m_l_selector.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable\\m_l_selector.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\small_command_btn_bg.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable\\small_command_btn_bg.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\9566daf36d129c859ec9663235d89df41f5d6733\\output\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\s_z_icon.png",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable\\s_z_icon.png"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\s_j2_icon.png",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable\\s_j2_icon.png"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_pressed_style.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable\\btn_pressed_style.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rect_white_bg.png",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable\\rect_white_bg.png"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\s_j_icon.png",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable\\s_j_icon.png"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\small_collect_list_result.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable\\small_collect_list_result.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\s_pop_selector.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable\\s_pop_selector.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\s_c_icon.png",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable\\s_c_icon.png"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\9566daf36d129c859ec9663235d89df41f5d6733\\output\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\title_list_selector.xml",
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable\\title_list_selector.xml"
     },
@@ -132,7 +236,15 @@
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable\\m_i_selector.xml"
     },
     {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\s_list_1.png",
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable\\s_list_1.png"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
     }
 ]

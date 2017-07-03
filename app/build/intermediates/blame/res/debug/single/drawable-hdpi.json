@@ -1,15 +1,19 @@
 [
     {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable-hdpi\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\small_tabs_btn_bg_d.png",
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\small_tabs_btn_bg_d.png"
     },
     {
-        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\s_icon_wm.png",
-        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\s_icon_wm.png"
-    },
-    {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mm_title_functionframe_line.png",
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\mm_title_functionframe_line.png"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\s_icon_wm.png",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\s_icon_wm.png"
     },
     {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\small_centre.png",
@@ -24,6 +28,10 @@
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\s_setting_c.png"
     },
     {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable-hdpi\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\s_back.png",
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\s_back.png"
     },
@@ -36,12 +44,12 @@
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\m_i_bg.png"
     },
     {
-        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\small_topbar_bt.png",
-        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\small_topbar_bt.png"
-    },
-    {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\login_logo2.png",
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\login_logo2.png"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\small_topbar_bt.png",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\small_topbar_bt.png"
     },
     {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\s_setting_z.png",
@@ -54,6 +62,10 @@
     {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\login_user.png",
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\login_user.png"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable-hdpi\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\small_list_bg1.png",
@@ -80,6 +92,10 @@
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\install_tab_bg_n.png"
     },
     {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable-hdpi\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\m_big_uv.png",
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\m_big_uv.png"
     },
@@ -88,16 +104,28 @@
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\small_grp_bg.png"
     },
     {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable-hdpi\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main_other.png",
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\main_other.png"
     },
     {
-        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\s_setting_j2.png",
-        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\s_setting_j2.png"
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable-hdpi\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable-hdpi\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\s_add.png",
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\s_add.png"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\s_setting_j2.png",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\s_setting_j2.png"
     },
     {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\s_setting_down.png",
@@ -116,6 +144,10 @@
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\m_install_uv.png"
     },
     {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable-hdpi\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\m_b_bg.png",
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\m_b_bg.png"
     },
@@ -128,8 +160,20 @@
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\install_gd_bg.png"
     },
     {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable-hdpi\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\s_list.png",
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\s_list.png"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable-hdpi\\abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ic_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable-hdpi\\abc_ic_search_api_mtrl_alpha.png"
     },
     {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\s_setting_tab_n.png",
@@ -140,12 +184,32 @@
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\icon_point_blue.png"
     },
     {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable-hdpi\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon.png",
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
     },
     {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\w_logo.png",
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\w_logo.png"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable-hdpi\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable-hdpi\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_list_focused_holo.9.png",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable-hdpi\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable-hdpi\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\small_bg.png",
@@ -176,24 +240,28 @@
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\small_tab_bg.png"
     },
     {
-        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\small_icon_4_n.png",
-        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\small_icon_4_n.png"
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_btn_rating_star_off_mtrl_alpha.png",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable-hdpi\\abc_btn_rating_star_off_mtrl_alpha.png"
     },
     {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\small_icon_1_n.png",
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\small_icon_1_n.png"
     },
     {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\small_icon_4_n.png",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\small_icon_4_n.png"
+    },
+    {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main_small.png",
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\main_small.png"
     },
     {
-        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\small_setting_gc_f.png",
-        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\small_setting_gc_f.png"
-    },
-    {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\m_l_pic.png",
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\m_l_pic.png"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\small_setting_gc_f.png",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\small_setting_gc_f.png"
     },
     {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_tips.png",
@@ -204,12 +272,16 @@
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\small_list_bg.png"
     },
     {
-        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mm_title_btn_pressed.png",
-        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\mm_title_btn_pressed.png"
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable-hdpi\\abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\small_title_button_n_versa.png",
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\small_title_button_n_versa.png"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mm_title_btn_pressed.png",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\mm_title_btn_pressed.png"
     },
     {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\s_more.png",
@@ -220,12 +292,20 @@
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\m_l_down.png"
     },
     {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable-hdpi\\abc_btn_rating_star_on_mtrl_alpha.png"
+    },
+    {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_4_n.png",
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\icon_4_n.png"
     },
     {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\small_title_bar.png",
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\small_title_bar.png"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable-hdpi\\abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\title_btn_function.png",
@@ -236,12 +316,24 @@
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\small_title_button_n.png"
     },
     {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ic_clear_mtrl_alpha.png",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable-hdpi\\abc_ic_clear_mtrl_alpha.png"
+    },
+    {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\checked.png",
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\checked.png"
     },
     {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable-hdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mm_title_btn_compose_normal.png",
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\mm_title_btn_compose_normal.png"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable-hdpi\\abc_btn_radio_to_on_mtrl_000.png"
     },
     {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\s_setting_tab_f.png",
@@ -280,6 +372,10 @@
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\login_radio.png"
     },
     {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_list_pressed_holo_light.9.png",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable-hdpi\\abc_list_pressed_holo_light.9.png"
+    },
+    {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\m_i_down.png",
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\m_i_down.png"
     },
@@ -290,6 +386,14 @@
     {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\m_s_bg.png",
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\m_s_bg.png"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable-hdpi\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable-hdpi\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\m_i_pic.png",
@@ -308,6 +412,10 @@
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\m_small_uv.png"
     },
     {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable-hdpi\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\m_d_bg.png",
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\m_d_bg.png"
     },
@@ -324,12 +432,20 @@
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\small_setting_gc_n.png"
     },
     {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable-hdpi\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\small_topbar_ater1.png",
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\small_topbar_ater1.png"
     },
     {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\login_log_in_pre.png",
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\login_log_in_pre.png"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable-hdpi\\abc_textfield_default_mtrl_alpha.9.png"
     },
     {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\m_s_pic.png",
@@ -340,8 +456,20 @@
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\login_button.png"
     },
     {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable-hdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable-hdpi\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\m_h_pic.png",
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\m_h_pic.png"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mm_title_btn_receiver_normal.png",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\mm_title_btn_receiver_normal.png"
     },
     {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_3_n.png",
@@ -350,10 +478,6 @@
     {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\login_logo.png",
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\login_logo.png"
-    },
-    {
-        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mm_title_btn_receiver_normal.png",
-        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\mm_title_btn_receiver_normal.png"
     },
     {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mm_title_btn_keyboard_normal.png",
@@ -380,6 +504,18 @@
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\title_function_bg.png"
     },
     {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_list_pressed_holo_dark.9.png",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable-hdpi\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable-hdpi\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable-hdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\s_list_1.png",
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\s_list_1.png"
     },
@@ -392,32 +528,52 @@
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\mm_title_btn_qrcode_normal.png"
     },
     {
-        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\small_topbar_ater.png",
-        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\small_topbar_ater.png"
-    },
-    {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\small_topbar_front.png",
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\small_topbar_front.png"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\small_topbar_ater.png",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\small_topbar_ater.png"
     },
     {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\m_d_pic.png",
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\m_d_pic.png"
     },
     {
-        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\small_icon_3_n.png",
-        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\small_icon_3_n.png"
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable-hdpi\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable-hdpi\\abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\small_icon_2_n.png",
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\small_icon_2_n.png"
     },
     {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\small_icon_3_n.png",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\small_icon_3_n.png"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable-hdpi\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\small_topbar_front1.png",
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\small_topbar_front1.png"
     },
     {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_popup_background_mtrl_mult.9.png",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable-hdpi\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mm_title_functionframe_pressed.png",
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\mm_title_functionframe_pressed.png"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable-hdpi\\abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\install_title_bar.png",
@@ -428,8 +584,20 @@
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\tab_command_bg.png"
     },
     {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable-hdpi\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\install_tab_bg_f.png",
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\install_tab_bg_f.png"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable-hdpi\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_list_longpressed_holo.9.png",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable-hdpi\\abc_list_longpressed_holo.9.png"
     },
     {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\photo_rect_bg.png",
@@ -442,6 +610,10 @@
     {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\small_title_bar1.png",
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\small_title_bar1.png"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable-hdpi\\abc_ic_go_search_api_mtrl_alpha.png"
     },
     {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_2_n.png",
