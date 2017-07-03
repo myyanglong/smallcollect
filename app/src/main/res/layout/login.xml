@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="#fff">
+	<LinearLayout 
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:background="@drawable/install_title_bar"
+	    android:layout_height="wrap_content">
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="40dp"
+	        android:orientation="horizontal" >
+	        <RelativeLayout
+	            android:id="@+id/s_back"
+	            android:layout_width="0px"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1"
+	            android:gravity="center"
+	            android:background="@drawable/btn_pressed_style"
+	            android:clickable="true" >
+	           <ImageButton
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:clickable="false"
+		            android:background="@drawable/small_title_button_n"/>
+	        </RelativeLayout>
+	
+	        <RelativeLayout
+	            android:layout_width="0px"
+	            android:layout_height="match_parent"
+	            android:layout_weight="3" >
+	        </RelativeLayout>
+	
+	        <RelativeLayout
+	            android:layout_width="0px"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1"
+	            android:gravity="center"
+	            android:clickable="false" >
+	        </RelativeLayout>
+	    </LinearLayout>
+	    <LinearLayout 
+		    android:orientation="vertical"
+		    android:layout_width="fill_parent"
+		    android:paddingBottom="10dp"
+		    android:paddingTop="15dp"
+		    android:layout_height="wrap_content">
+	        <RelativeLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="vertical" >
+		        <LinearLayout 
+		            android:id="@+id/s_img"
+				    android:orientation="vertical"
+				    android:layout_alignParentTop="true"
+			        android:layout_centerHorizontal="true"
+			        android:layout_marginBottom="5dp"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content">
+			        <ImageView
+			            android:id="@+id/img_id"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:src="@drawable/login_img" />
+		        </LinearLayout>
+
+		        <TextView
+		            android:id="@+id/s_info"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_below="@+id/s_img"
+		            android:layout_marginTop="5dp"
+		            android:layout_centerHorizontal="true"
+		            android:text="@string/m_d"
+		            android:textSize="14sp"
+		            android:textColor="#ffffff" />
+			</RelativeLayout>
+	    </LinearLayout>
+	</LinearLayout>
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:paddingLeft="25dp"
+	    android:paddingRight="25dp"
+	    android:paddingTop="30dp"
+	    android:paddingBottom="30dp"
+	    android:orientation="vertical" >
+	    <EditText
+            android:id="@+id/login_name"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/install_gd_bg"
+            android:drawableLeft="@drawable/login_user"
+			android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="请输入用户名"
+            android:textSize="12dp" />
+	    <EditText
+            android:id="@+id/login_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/install_gd_bg"
+            android:drawableLeft="@drawable/login_pwd"
+            android:drawablePadding="10dp"
+            android:password="true"
+            android:ems="10"
+            android:hint="请输入密码"
+            android:textSize="12dp" />
+	    <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="20dp"
+		    android:orientation="horizontal" >
+	        <LinearLayout
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_weight="1"
+			    android:orientation="horizontal" >
+		        <CheckBox
+		            android:id="@+id/delData"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="数据清空登录"
+		            android:textColor="#fc9a00"
+		            android:textSize="12dp" 
+		            android:button="@drawable/checkbox_checked_style"/>
+	        </LinearLayout>
+	        <LinearLayout
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_weight="1"
+			    android:layout_marginTop="3dp"
+			    android:gravity="right"
+			    android:orientation="horizontal" >
+		         <RadioGroup
+		            android:id="@+id/rg"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:orientation="horizontal" >
+	        	</RadioGroup>
+	        </LinearLayout>
+	    </LinearLayout>
+	    
+	    <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:text="登录" 
+            android:textSize="15sp"
+            android:textColor="#ffffff"
+			android:background="@drawable/btn_other_press"/>
+	</LinearLayout>
+</LinearLayout>

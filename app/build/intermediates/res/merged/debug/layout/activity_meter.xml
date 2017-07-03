@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	
+    <TabHost 
+	    android:id="@android:id/tabhost"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent" >
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:background="@color/backgroundcolor"
+	        android:orientation="vertical" >
+	
+	        <FrameLayout
+	            android:id="@android:id/tabcontent"
+	            android:layout_width="fill_parent"
+	            android:layout_height="0.0dip"
+	            android:layout_weight="1.0" />
+	
+	        <TabWidget
+	            android:id="@android:id/tabs"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="0.0"
+	            android:visibility="gone" />
+	
+	        <FrameLayout
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="bottom"
+	            android:background="@drawable/maintab_toolbar_bg"
+	            android:layout_marginTop="-10.0dip"
+	            android:paddingLeft="7.0dip"
+	            android:paddingRight="7.0dip" >
+
+	            <RadioGroup
+	                android:id="@+id/radio_meter"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:gravity="center_vertical"
+	                android:orientation="horizontal" >
+	
+	                <RadioButton
+	                    android:id="@+id/rd_1"
+	                    style="@style/main_tab_bottom"
+	                    android:drawableTop="@drawable/small_icon_1_n"
+	                    android:text="@string/meter_res" />
+	
+	                <RadioButton
+	                    android:id="@+id/rd_2"
+	                    style="@style/main_tab_bottom"
+	                    android:drawableTop="@drawable/small_icon_2_n"
+	                    android:text="@string/meter_ch" />
+
+	                <RadioButton
+	                    android:id="@+id/rd_3"
+	                    style="@style/main_tab_bottom"
+	                    android:drawableTop="@drawable/small_icon_3_n"
+	                    android:text="@string/meter_sys" />
+	
+	                <RadioButton
+	                    android:id="@+id/rd_4"
+	                    style="@style/main_tab_bottom"
+	                    android:drawableTop="@drawable/small_icon_4_n"
+	                    android:text="@string/meter_back" />
+	            </RadioGroup>
+	        </FrameLayout>
+	    </LinearLayout>
+    </TabHost>
+
+</LinearLayout>

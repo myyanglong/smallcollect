@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\anim\\w_fade_out.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\anim\\w_fade_out.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\anim\\w_exit.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\anim\\w_exit.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\anim\\s_pop_out.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\anim\\s_pop_out.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\anim\\w_enter.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\anim\\w_enter.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\anim\\w_fade_in.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\anim\\w_fade_in.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\anim\\w_fade_in_scale.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\anim\\w_fade_in_scale.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\anim\\s_pop_enter.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\anim\\s_pop_enter.xml"
+    }
+]

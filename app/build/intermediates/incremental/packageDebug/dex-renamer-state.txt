@@ -1,0 +1,7 @@
+#Thu Jun 29 16:07:14 CST 2017
+base.0=E\:\\Git\\smallcollect\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_ae752fc974ad548f30b38ae1db90b0a4962817bb
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=E\:\\Git\\smallcollect\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_91041b99e40f29d596e1f25b882615fb18f32550\\classes.dex
+base.1=E\:\\Git\\smallcollect\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_91041b99e40f29d596e1f25b882615fb18f32550
+file.0=E\:\\Git\\smallcollect\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_ae752fc974ad548f30b38ae1db90b0a4962817bb\\classes.dex

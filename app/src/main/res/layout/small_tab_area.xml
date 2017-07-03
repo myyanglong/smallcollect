@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/white">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingBottom="10dip"
+        android:paddingTop="5dip"
+        android:orientation="horizontal">
+        <ListView
+            android:id="@+id/small_water_list"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:divider="#c4c2c4"
+            android:dividerHeight="1px"
+            android:fadingEdge="none" >
+        </ListView>
+    </LinearLayout>
+
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/login_log_in1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_action"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_pressed_style"
+            android:padding="5dp"
+            android:text="读取"
+            android:textColor="#FDFEFE"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_clear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_pressed_style"
+            android:text="清除"
+            android:layout_margin="5dp"
+            android:textColor="#FDFEFE"
+            android:textSize="16sp" />
+        <Button
+            android:id="@+id/btn_soketok"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/btn_pressed_style"
+            android:text="上传数据
+"
+            android:textColor="#FDFEFE"
+            android:textSize="16sp" />
+    </LinearLayout>
+</LinearLayout>

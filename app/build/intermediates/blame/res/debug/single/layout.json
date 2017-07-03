@@ -1,0 +1,194 @@
+[
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\layout\\small_tab_setting.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\layout\\small_tab_setting.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\layout\\s_menu.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\layout\\s_menu.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\layout\\small_tab_data.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\layout\\small_tab_data.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_item_layout.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\layout\\listview_item_layout.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\layout\\small_main.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\layout\\small_main.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\layout\\big_menu.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\layout\\big_menu.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\layout\\s_setting.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\layout\\s_setting.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\layout\\small_main_all.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\layout\\small_main_all.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\layout\\s_meter.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\layout\\s_meter.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\layout\\s_layout_list_item.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\layout\\s_layout_list_item.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_meter.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\layout\\activity_meter.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\layout\\s_setting_pop_meter.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\layout\\s_setting_pop_meter.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\layout\\small_tab_command.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\layout\\small_tab_command.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\layout\\big_main.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\layout\\big_main.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\layout\\s_pop_grid_item.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\layout\\s_pop_grid_item.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_meter_setting.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\layout\\activity_meter_setting.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\layout\\dialog.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\layout\\s_setting_grpchnl.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\layout\\s_setting_grpchnl.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\layout\\c_debug.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\layout\\c_debug.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_error.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\layout\\listview_error.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\layout\\big_fullscreen.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\layout\\big_fullscreen.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bak_s_setting_select_water.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\layout\\bak_s_setting_select_water.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\layout\\privatelisting_delete_merge.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\layout\\privatelisting_delete_merge.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\layout\\s_setting_select_water.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\layout\\s_setting_select_water.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_entry_menu.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\layout\\activity_entry_menu.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\layout\\s_setting_select_meter.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\layout\\s_setting_select_meter.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_tab_command.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\layout\\activity_tab_command.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\layout\\s_layout_popwindow.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\layout\\s_layout_popwindow.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\layout\\s_setting_popwindow.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\layout\\s_setting_popwindow.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\layout\\big_entry.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\layout\\big_entry.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\layout\\m_main.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\layout\\m_main.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\layout\\big_list.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\layout\\big_list.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\layout\\login.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\layout\\login.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\layout\\s_setting_tab_list.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\layout\\s_setting_tab_list.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\layout\\w_welcome.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\layout\\w_welcome.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_data.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\layout\\listview_data.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\layout\\configdialog.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\layout\\configdialog.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_welcome_item.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\layout\\activity_welcome_item.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spinner_item.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\layout\\spinner_item.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\layout\\small_tab_area.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\layout\\small_tab_area.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\layout\\s_layout.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\layout\\s_layout.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\layout\\help_activity.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\layout\\help_activity.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\layout\\small_tab_area_list.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\layout\\small_tab_area_list.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_tab_command_listview.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\layout\\item_tab_command_listview.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\layout\\activity_setting.xml"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\layout\\s_setting_listview.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\layout\\s_setting_listview.xml"
+    }
+]

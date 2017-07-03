@@ -1,0 +1,263 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:2:1-162:12
+	package
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:3:5-37
+		INJECTED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml
+uses-feature#android.hardware.usb.host
+ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:11:5-62
+	android:name
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:11:19-59
+application
+ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:13:5-147:19
+	android:label
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:16:9-41
+	android:allowBackup
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:14:9-35
+	android:icon
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:15:9-38
+activity#com.wecan.welcome.WelcomeActivity
+ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:18:9-27:20
+	android:label
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:21:13-45
+	android:theme
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:20:13-60
+	android:name
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:19:13-61
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:22:12-26:29
+action#android.intent.action.MAIN
+ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:23:17-69
+	android:name
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:23:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:25:27-74
+activity#com.wecan.activity.MainActivity
+ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:28:9-32:20
+	android:label
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:30:13-45
+	android:name
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:29:13-59
+activity#com.wecan.big.BigMain
+ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:33:9-38:20
+	android:label
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:36:13-45
+	android:theme
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:35:13-60
+	android:name
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:34:13-49
+activity#com.wecan.big.BigActivity
+ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:39:9-43:20
+	android:label
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:41:13-45
+	android:name
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:40:13-53
+activity#com.wecan.big.BigMenu
+ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:44:9-48:20
+	android:label
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:47:13-45
+	android:theme
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:46:13-72
+	android:name
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:45:13-49
+activity#com.wecan.big.FullScreen
+ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:50:9-53:20
+	android:label
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:52:13-45
+	android:name
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:51:13-52
+activity#com.wecan.install.InstallMain
+ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:54:9-58:20
+	android:label
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:57:13-45
+	android:theme
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:56:13-60
+	android:name
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:55:13-57
+activity#com.wecan.small.SmallMain
+ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:60:9-65:20
+	android:label
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:63:13-45
+	android:theme
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:62:13-60
+	android:name
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:61:13-53
+activity#com.wecan.small.SmallTabError
+ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:66:9-70:20
+	android:label
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:69:13-45
+	android:theme
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:68:13-60
+	android:name
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:67:13-57
+activity#com.wecan.small.SmallTabCommand
+ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:71:9-75:20
+	android:label
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:74:13-45
+	android:theme
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:73:13-60
+	android:name
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:72:13-59
+activity#com.wecan.small.EntryMenuActivity
+ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:78:9-81:20
+	android:theme
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:80:13-72
+	android:name
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:79:13-61
+activity#com.wecan.small.SmallTabData
+ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:82:9-74
+	android:name
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:82:19-62
+activity#com.wecan.small.SmallTabArea
+ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:83:9-74
+	android:name
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:83:19-62
+activity#com.wecom.wecan.small.TabTotalActivitytivity
+ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:84:9-90
+	android:name
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:84:19-78
+activity#com.wecan.install.TabSystem
+ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:86:9-89:20
+	android:theme
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:88:13-72
+	android:name
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:87:13-55
+activity#com.wecan.install.MeterSettingActivity
+ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:90:10-95:20
+	android:label
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:93:13-45
+	android:theme
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:92:13-60
+	android:name
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:91:13-66
+activity#com.wecan.install.InstallSingle
+ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:96:9-100:20
+	android:label
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:99:13-45
+	android:theme
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:98:13-60
+	android:name
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:97:13-59
+activity#com.wecan.install.InstallSelectWater
+ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:102:9-106:20
+	android:label
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:105:13-45
+	android:theme
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:104:13-60
+	android:name
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:103:13-64
+activity#com.wecan.install.InstallSelectMeter
+ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:107:9-111:20
+	android:label
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:110:13-45
+	android:theme
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:109:13-60
+	android:name
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:108:13-64
+activity#com.wecan.install.InstallMenu
+ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:113:9-117:20
+	android:label
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:116:13-45
+	android:theme
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:115:13-72
+	android:name
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:114:13-57
+activity#com.wecan.install.InstallSetting
+ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:118:9-122:20
+	android:label
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:121:13-45
+	android:theme
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:120:13-72
+	android:name
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:119:13-60
+activity#com.wecan.login.LoginMain
+ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:123:9-127:20
+	android:label
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:126:13-45
+	android:theme
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:125:13-72
+	android:name
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:124:13-53
+activity#com.wecan.check.CheckMain
+ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:129:9-133:20
+	android:label
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:132:13-45
+	android:theme
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:131:13-72
+	android:name
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:130:13-53
+activity#com.wecan.login.HelpMain
+ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:134:9-138:20
+	android:label
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:137:13-45
+	android:theme
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:136:13-72
+	android:name
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:135:13-52
+service#com.wecan.service.RfServ
+ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:140:3-141:13
+	android:name
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:140:12-51
+service#com.wecan.service.UartService
+ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:143:3-144:13
+	android:name
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:143:12-56
+uses-library#android.test.runner
+ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:146:3-54
+	android:name
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:146:17-51
+instrumentation
+ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:148:5-149:85
+	android:label
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:149:50-82
+	android:targetPackage
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:149:5-49
+	android:name
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:148:22-75
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:153:5-83
+	android:name
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:153:22-81
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:155:2-77
+	android:name
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:155:19-75
+uses-permission#android.permission.INTERNET
+ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:156:2-64
+	android:name
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:156:19-61
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:158:5-79
+	android:name
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:158:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:159:5-76
+	android:name
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:159:22-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:161:5-68
+	android:name
+		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:161:22-65

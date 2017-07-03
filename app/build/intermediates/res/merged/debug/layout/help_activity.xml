@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/small_title_bar1"
+        android:orientation="horizontal" >
+        <RelativeLayout
+            android:id="@+id/s_back"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@drawable/btn_pressed_style"
+            android:clickable="true" >
+           <ImageButton
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:clickable="false"
+	            android:background="@drawable/small_title_button_n"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="3" >
+            <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="fill_parent"
+	            android:layout_centerInParent="true"
+	            android:layout_marginLeft="5dp"
+	            android:gravity="center"
+	            android:text="帮助说明"
+	            android:textColor="#ffffff"
+	            android:textSize="16sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/s_add"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@drawable/btn_pressed_style"
+            android:clickable="true" >
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingBottom="10dip"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/helptext"
+            android:layout_width="match_parent"
+            android:layout_height="364dp" />
+
+        <Button
+            android:id="@+id/make_sure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="确定" 
+            android:background="@drawable/btn_other_press"/>
+
+    </LinearLayout>
+
+</LinearLayout>

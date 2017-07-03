@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\msetting_bg.jpg",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\msetting_bg.jpg"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bkg_img_default.jpg",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\bkg_img_default.jpg"
+    }
+]

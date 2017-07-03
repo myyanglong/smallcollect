@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="ItemArray">
+         <item>删除</item>
+         <item>配置给中继器</item>
+    </array>
+    <color name="backgroundcolor">#fff0f1f1</color>
+    <color name="black">#ff000000</color>
+    <color name="divider_color">#ffd3d3d3</color>
+    <color name="gray">#ff8aaef2</color>
+    <color name="list_select_color">#ffdedede</color>
+    <color name="more_color">#ff3b3b3b</color>
+    <color name="more_divider">#ff1c1c1c</color>
+    <color name="more_text_color">#fff3f3f3</color>
+    <color name="red">#ffff0000</color>
+    <color name="text_hint_color">#ff9c9d9d</color>
+    <color name="white">#ffffffff</color>
+    <color name="write_color">#ff3b3b3b</color>
+    <color name="write_hint_color">#ffa5a6a8</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="action_settings">Settings</string>
+    <string name="all">累计流量:</string>
+    <string name="app_name">smallcollect</string>
+    <string name="big_address">地\u0020\u0020\u0020址:</string>
+    <string name="big_get">已采集(%1$d)</string>
+    <string name="big_miss">未采集(%1$d)</string>
+    <string name="big_time">采集时间:</string>
+    <string name="command_chnl">接收信道%1$d</string>
+    <string name="command_grp">信道组类别%1$d</string>
+    <string name="command_rev">接收模式</string>
+    <string name="command_send">发送模式</string>
+    <string name="command_sleep">空闲模式</string>
+    <string name="command_wakeup">唤醒模式</string>
+    <string name="data_big">大表</string>
+    <string name="data_download">水表号下载</string>
+    <string name="data_meter">采集到的用户(%1$d)</string>
+    <string name="data_missed">未采集的用户(%1$d)</string>
+    <string name="data_reset">数据导入</string>
+    <string name="data_rf">最小瞬时流量:%1$s</string>
+    <string name="data_small">小表</string>
+    <string name="data_small_u">未采集</string>
+    <string name="data_status">%1$s</string>
+    <string name="data_str0">工作正常</string>
+    <string name="data_str1">电量低</string>
+    <string name="data_str2">压力故障</string>
+    <string name="data_str3">长时间未通信</string>
+    <string name="data_str4">定时晶振故障</string>
+    <string name="data_str5">故障%1$d</string>
+    <string name="data_time">时间:%1$s</string>
+    <string name="data_total">总量:</string>
+    <string name="data_upload">数据上传</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="login_name">帐号</string>
+    <string name="login_pwd">密码</string>
+    <string name="login_signin">登录</string>
+    <string name="m_b">大表采集</string>
+    <string name="m_d">用户登录</string>
+    <string name="m_h">帮助</string>
+    <string name="m_i">安装配置</string>
+    <string name="m_i_w">设置水表(%1$s)</string>
+    <string name="m_l">语言</string>
+    <string name="m_s">小表采集</string>
+    <string name="menu_updata">数据上传</string>
+    <string name="meter_back">返回</string>
+    <string name="meter_c">采集器</string>
+    <string name="meter_ch">终端绑定</string>
+    <string name="meter_id">设备号:%1$s</string>
+    <string name="meter_j">集中器</string>
+    <string name="meter_list_id">水表号:%1$s</string>
+    <string name="meter_res">设备关联</string>
+    <string name="meter_sys">系统指令</string>
+    <string name="meter_z">中继器</string>
+    <string name="s_area">区域选择</string>
+    <string name="s_command_down">水表号下载</string>
+    <string name="s_command_export">数据导出</string>
+    <string name="s_command_init">数据初始化</string>
+    <string name="s_command_up">数据上传</string>
+    <string name="s_data">数据采集</string>
+    <string name="s_get">采集到的用户</string>
+    <string name="s_init">数据同步</string>
+    <string name="s_missed">未采集到的用户</string>
+    <string name="s_setting">故障列表</string>
+    <string name="setting_m">关联设备/%1$d</string>
+    <string name="setting_menu_gc">信道选择</string>
+    <string name="setting_menu_m">添加设备</string>
+    <string name="setting_menu_w">添加水表</string>
+    <string name="setting_s_failu">相差数/%1$d</string>
+    <string name="setting_s_succe">成功数/%1$d</string>
+    <string name="setting_s_tatol">水表数/%1$d</string>
+    <string name="setting_w_id">水表号/%1$d</string>
+    <string name="setting_w_miss">未关联	%1$s</string>
+    <string name="status">状\u0020\u0020\u0020态:</string>
+    <string name="status_0">测量电压低</string>
+    <string name="status_1">压力模块故障</string>
+    <string name="status_2">测量电压低</string>
+    <string name="status_3">空管或者换能器故障</string>
+    <string name="status_4">RF电压低</string>
+    <string name="status_5">未知</string>
+    <string name="status_6">未知</string>
+    <string name="status_7">RTC故障</string>
+    <string name="time">时   间:</string>
+    <string name="title">无线手抄器</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">33dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:layout_gravity">right|center_horizontal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">12.0sp</item>
+    </style>
+    <style name="animation">
+        <item name="android:windowEnterAnimation">@anim/s_pop_enter</item>聽
+	    <item name="android:windowExitAnimation">@anim/s_pop_out</item> 
+    </style>
+    <style name="comm_controls">
+        <item name="android:textSize">11.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:layout_marginLeft">0.0dip</item>
+        <item name="android:layout_marginTop">2.0dip</item>
+        <item name="android:layout_marginRight">0.0dip</item>
+        <item name="android:layout_marginBottom">2.0dip</item>
+    </style>
+    <style name="main_tab_bottom">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@drawable/small_tabs_btn_bg</item>
+        <item name="android:paddingTop">7.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">6.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="tab_system_rbtn">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ff404142</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/small_tabs_btn_bg</item>
+        <item name="android:paddingTop">7.0dip</item>
+        <item name="android:paddingBottom">1.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">2.0dip</item>
+        <item name="android:layout_marginBottom">1.0dip</item>
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">5.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+</resources>

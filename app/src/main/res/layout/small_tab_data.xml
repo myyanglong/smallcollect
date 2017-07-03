@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:ignore="ContentDescription" >
+
+    <!-- 标题栏 -->
+    <LinearLayout
+        android:id="@+id/home_layout_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="top"
+        android:gravity="center" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <!-- 我的贴吧 -->
+           <Button
+                android:id="@+id/meter_data"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_weight="1.0"
+                android:background="@drawable/small_topbar_front1"
+                android:clickable="false"
+                android:text="@string/data_meter"
+                android:textColor="#ffffffff"
+                android:textSize="13.0sp" />
+
+           <Button
+               android:id="@+id/missed_data"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:layout_margin="0.0dip"
+               android:layout_weight="1.0"
+               android:background="@drawable/small_topbar_ater"
+               android:clickable="true"
+               android:gravity="center"
+               android:text="@string/data_missed"
+               android:textColor="#ffffffff"
+               android:textSize="13.0sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/home_layout_bar"
+        android:background="@color/white"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingBottom="10dip" >
+
+        <ListView
+            android:id="@+id/datalistView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:divider="#c4c2c4"
+            android:dividerHeight="1px"
+            android:headerDividersEnabled="false" >
+        </ListView>
+
+    </FrameLayout>
+
+</RelativeLayout>

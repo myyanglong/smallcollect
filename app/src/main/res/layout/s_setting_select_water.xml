@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/small_title_bar1"
+        android:orientation="horizontal" >
+        <RelativeLayout
+            android:id="@+id/s_back"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@drawable/btn_pressed_style"
+            android:clickable="true" >
+           <ImageButton
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:clickable="false"
+	            android:background="@drawable/small_title_button_n"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="3" >
+            <TextView
+                android:id="@+id/m_i_w"
+	            android:layout_width="wrap_content"
+	            android:layout_height="fill_parent"
+	            android:layout_centerInParent="true"
+	            android:layout_marginLeft="5dp"
+	            android:gravity="center"
+	            android:text="@string/m_i_w"
+	            android:textColor="#ffffff"
+	            android:textSize="16sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/s_add"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@drawable/btn_pressed_style"
+            android:clickable="true" >
+            <ImageButton
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:clickable="false"
+	            android:background="@drawable/s_more"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/small_centre">
+        <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="55dp"
+	        android:gravity="center"
+	        android:orientation="horizontal" >
+			<RelativeLayout
+				android:layout_width="wrap_content"
+				android:layout_height="fill_parent"
+				android:gravity="center"
+       			android:layout_weight="1">
+		        <Spinner
+				    android:id="@+id/spinner_area"
+			        android:layout_width="fill_parent"
+			        android:layout_height="fill_parent"
+			        android:layout_gravity="center"
+			        android:textSize="10.0sp"
+			        android:background="@drawable/btn_pressed_style"
+			        style="@android:attr/spinnerDropDownItemStyle"/>
+		        
+			</RelativeLayout>
+			<ImageView
+		            android:layout_width="wrap_content"
+		            android:layout_height="fill_parent"
+		            android:layout_marginTop="10dp"
+		            android:layout_marginBottom="10dp"
+		            android:background="@drawable/small_topbar_line"/>
+     		<RelativeLayout
+				android:layout_width="wrap_content"
+				android:layout_height="fill_parent"
+				android:gravity="center"
+       			android:layout_weight="1">
+       			<Spinner
+				    android:id="@+id/spinner_build"
+			        android:layout_width="fill_parent"
+			        android:layout_height="fill_parent"
+			        android:layout_gravity="center"
+			        android:textSize="10.0sp"
+			        android:background="@drawable/btn_pressed_style"
+			        style="@android:attr/spinnerDropDownItemStyle"/>
+			</RelativeLayout>
+			<ImageView
+		            android:layout_width="wrap_content"
+		            android:layout_height="fill_parent"
+		            android:layout_marginTop="10dp"
+		            android:layout_marginBottom="10dp"
+		            android:background="@drawable/small_topbar_line"/>
+
+			<RelativeLayout
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_weight="1"
+			    android:gravity="center" >
+				
+			    <Spinner
+			        android:id="@+id/spinner_floor"
+			        style="@android:attr/spinnerDropDownItemStyle"
+			        android:layout_width="0dp"
+			        android:layout_height="0dp"
+			        android:layout_gravity="center"
+			        android:background="@drawable/btn_pressed_style"
+			        android:textSize="10.0sp" />
+				
+
+			    <Button
+			        android:id="@+id/btn_floor"
+			        android:layout_width="match_parent"
+			        android:layout_height="match_parent"
+			        android:background="@drawable/btn_pressed_style"
+			        android:gravity="center"
+			        android:text="选择楼层"
+			        android:textColor="@color/white"
+			        android:textSize="16sp" />
+
+			</RelativeLayout>
+
+		</LinearLayout>
+	</LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingBottom="0dip"
+        android:paddingTop="0dip"
+        android:orientation="horizontal">
+        <ListView
+            android:id="@+id/small_water_list"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:divider="#c4c2c4"
+            android:dividerHeight="1px"
+            android:fadingEdge="none" >
+        </ListView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:background="#0BA683"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+        <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:gravity="center"
+	        android:orientation="horizontal"
+	        android:layout_weight="1">
+	        <CheckBox 
+	            android:id="@+id/cb_all"
+	            android:layout_width="wrap_content"
+	            android:layout_height="match_parent"
+	            android:paddingLeft="10px"
+	        	android:text="全选" />
+        </LinearLayout>
+        <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:gravity="center"
+	        android:orientation="horizontal"
+	        android:layout_weight="1">
+	        <CheckBox
+			    android:id="@+id/cb_set"
+			    android:layout_width="wrap_content"
+	            android:layout_height="match_parent"
+	            android:paddingLeft="10px"
+			    android:text="已配置" />
+        </LinearLayout>        
+        <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:gravity="center"
+	        android:orientation="horizontal"
+	        android:layout_weight="1">
+
+	        <Button
+	            android:id="@+id/btn_water_del"
+	            android:layout_width="wrap_content"
+	            android:layout_height="match_parent"
+	            android:background="#0BA683"
+	            android:paddingLeft="10px"
+	            android:text="删除表号"
+	            android:textColor="@color/white" />
+
+        </LinearLayout>        
+    </LinearLayout>
+</LinearLayout>

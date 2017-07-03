@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/small_bg"
+    android:orientation="vertical" >
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/small_title_bar"
+        android:orientation="horizontal" >
+        <RelativeLayout
+            android:id="@+id/s_back"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@drawable/btn_pressed_style"
+            android:clickable="true" >
+           <ImageButton
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:clickable="false"
+	            android:background="@drawable/small_title_button_n"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="3" >
+            <TextView
+                android:id="@+id/big_id"
+	            android:layout_width="wrap_content"
+	            android:layout_height="fill_parent"
+	            android:layout_centerInParent="true"
+	            android:layout_marginLeft="5dp"
+	            android:gravity="center"
+	            android:text="@string/m_b"
+	            android:textColor="#ffffff"
+	            android:textSize="16sp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:clickable="true" >
+        </RelativeLayout>
+        
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:paddingLeft="10dp"
+            android:background="@drawable/small_list_bg"
+            android:orientation="horizontal" >
+            <TextView
+                style="@style/TextView"
+                android:text="@string/big_address" />
+            <TextView
+                android:id="@+id/big_address"
+                style="@style/TextView"
+                android:text="重庆市中智联测试小区1" />
+		</LinearLayout>
+		
+		<LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:paddingLeft="10dp"
+            android:background="@drawable/small_list_bg"
+            android:orientation="horizontal" >
+			<LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="left|bottom"
+	            android:layout_weight="1.0"
+	            android:orientation="horizontal" >
+				<TextView
+	                style="@style/TextView"
+	                android:text="接收时间：" />
+				<TextView
+	                android:id="@+id/big_gtime"
+	                style="@style/TextView"
+	                android:text="2015" />
+			</LinearLayout>
+			<LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="left|center"
+	            android:layout_weight="1.0"
+	            android:orientation="horizontal" >
+	            <TextView
+	                style="@style/TextView"
+	                android:text="@string/status" />
+	            <TextView
+	                android:id="@+id/big_status"
+	                style="@style/TextView"
+	                android:text="正常" />
+            </LinearLayout>
+			
+        </LinearLayout>
+        
+		<LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:paddingLeft="10dp"
+            android:background="@drawable/small_list_bg"
+            android:orientation="horizontal" >
+            <TextView
+                style="@style/TextView"
+                android:text="采集时间：" />
+            <TextView
+                android:id="@+id/big_time"
+                style="@style/TextView"
+                android:text="2017" />
+  
+		</LinearLayout>
+		
+		<LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:paddingLeft="10dp"
+            android:background="@drawable/small_list_bg"
+            android:orientation="horizontal" >
+            <TextView
+                style="@style/TextView"
+                android:text="正累计流量（m3)：" />
+            <TextView
+                android:id="@+id/big_ptotal"
+                style="@style/TextView"
+                android:text="0.0" />
+		</LinearLayout>
+		
+		<LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:paddingLeft="10dp"
+            android:background="@drawable/small_list_bg"
+            android:orientation="horizontal" >
+            <TextView
+                style="@style/TextView"
+                android:text="负累计流量（m3）：" />
+            <TextView
+                android:id="@+id/big_ntotal"
+                style="@style/TextView"
+                android:text="0.0" />
+		</LinearLayout>
+		
+		<LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:paddingLeft="10dp"
+            android:background="@drawable/small_list_bg"
+            android:orientation="horizontal" >
+            <TextView
+                style="@style/TextView"
+                android:text="瞬时流量（m3/h)：" />
+            <TextView
+                android:id="@+id/big_insflow"
+                style="@style/TextView"
+                android:text="0.0" />
+		</LinearLayout>
+		
+		<LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:paddingLeft="10dp"
+            android:background="@drawable/small_list_bg"
+            android:orientation="horizontal" >
+            <TextView
+	                style="@style/TextView"
+	                android:text="最大瞬时流量（m3/h）:" />
+            <TextView
+                android:id="@+id/big_max"
+                style="@style/TextView"
+                android:text="0" />
+
+		</LinearLayout>
+		<LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:paddingLeft="10dp"
+            android:background="@drawable/small_list_bg"
+            android:orientation="horizontal" >
+            <TextView
+                style="@style/TextView"
+                android:text="最小瞬时流量（m3/h）:" />
+            <TextView
+                android:id="@+id/big_min"
+                style="@style/TextView"
+                android:text="0.0" />
+		</LinearLayout>
+		
+	<LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:paddingLeft="10dp"
+            android:background="@drawable/small_list_bg"
+            android:orientation="horizontal" >
+            <TextView
+                style="@style/TextView"
+                android:text="压力（10KPa）:" />
+            <TextView
+                android:id="@+id/big_press"
+                style="@style/TextView"
+                android:text="100" />
+		</LinearLayout>
+		
+		<LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:paddingLeft="10dp"
+            android:background="@drawable/small_list_bg"
+            android:orientation="horizontal" >
+            <TextView
+                style="@style/TextView"
+                android:text="温度（℃）:" />
+            <TextView
+                android:id="@+id/big_temp"
+                style="@style/TextView"
+                android:text="25.4" />
+		</LinearLayout>
+		
+		<LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:paddingLeft="10dp"
+            android:background="@drawable/small_list_bg"
+            android:orientation="horizontal" >
+            <TextView
+                style="@style/TextView"
+                android:text="气泡数(个):" />
+            <TextView
+                android:id="@+id/big_bubbles"
+                style="@style/TextView"
+                android:text="0" />
+		</LinearLayout>
+		
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.54" >
+
+        <RelativeLayout
+            android:id="@+id/pa_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </RelativeLayout>
+    </LinearLayout>
+
+    
+
+</LinearLayout>
