@@ -1,0 +1,4 @@
+#Thu Jul 06 15:26:15 CST 2017
+base.0=E\:\\Git\\smallcollect\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\d2xx_d796dd0df5222a6d83a28e19bbedeece619013d0
+renamed.0=classes.dex
+file.0=E\:\\Git\\smallcollect\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\d2xx_d796dd0df5222a6d83a28e19bbedeece619013d0\\classes.dex

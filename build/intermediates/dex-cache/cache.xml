@@ -2,15 +2,6 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="E:\Git\smallcollect\app\libs\d2xx.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="d23d4b59279cd49f064bb5abcb8795b91ec6fd25">
-        <dex dex="E:\Git\smallcollect\app\build\intermediates\pre-dexed\debug\d2xx_d796dd0df5222a6d83a28e19bbedeece619013d0.jar" />
-    </item>
-    <item
         is-multidex="true"
         jar="E:\Git\smallcollect\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
@@ -25,7 +16,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="7a814c45050ed733d00dbd48e9aae1cfe3bd2d52">
+        sha1="78d4792859a7cb336a12056e194cc03879fba74e">
         <dex dex="E:\Git\smallcollect\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_ae752fc974ad548f30b38ae1db90b0a4962817bb\classes.dex" />
     </item>
     <item

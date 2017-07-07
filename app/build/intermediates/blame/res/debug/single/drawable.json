@@ -176,16 +176,16 @@
         "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_pressed_style.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable\\btn_pressed_style.xml"
+    },
+    {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\s_z_icon.png",
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable\\s_z_icon.png"
     },
     {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\s_j2_icon.png",
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable\\s_j2_icon.png"
-    },
-    {
-        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_pressed_style.xml",
-        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable\\btn_pressed_style.xml"
     },
     {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rect_white_bg.png",
@@ -212,12 +212,12 @@
         "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
-        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\s_pop_selector.xml",
-        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable\\s_pop_selector.xml"
-    },
-    {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\s_c_icon.png",
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable\\s_c_icon.png"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\s_pop_selector.xml",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable\\s_pop_selector.xml"
     },
     {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",

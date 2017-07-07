@@ -17,16 +17,6 @@ ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:2:1-162:12
 		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:2:11-69
 uses-sdk
 ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.vilyever:socketclient:3.0.3] E:\Git\smallcollect\socketclient\build\intermediates\bundles\default\AndroidManifest.xml:6:5-8:41
-MERGED from [com.github.vilyever:AndroidResource:1.2.0] C:\Users\xiaotaozhu\.android\build-cache\2fd59091bb76ea6a206bd59dc54dfe9c37c1b163\output\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.vilyever:AndroidContextHolder:1.1.0] C:\Users\xiaotaozhu\.android\build-cache\cc08742bf212a66809ada1430b90dddd368682a6\output\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.vilyever:AndroidLogger:1.0.9] C:\Users\xiaotaozhu\.android\build-cache\823d3db56f26c620e09c22de0eef2a2326b39425\output\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:design:23.1.1] C:\Users\xiaotaozhu\.android\build-cache\9566daf36d129c859ec9663235d89df41f5d6733\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:23.1.1] C:\Users\xiaotaozhu\.android\build-cache\f2c637a4ed13ae0012c70c16d660f82166703929\output\AndroidManifest.xml:20:5-43
-MERGED from [com.github.vilyever:AndroidJsonModel:1.2.0] C:\Users\xiaotaozhu\.android\build-cache\976f46727193c1aa9f62bef0b61232a39ac56226\output\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.vilyever:AndroidReflectKit:1.1.0] C:\Users\xiaotaozhu\.android\build-cache\f8ec50f7abc5150b34e80ed97081ec55bdc2bfa7\output\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\xiaotaozhu\.android\build-cache\df751525e1de243b6b48488d7f749faaa30e51bc\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\xiaotaozhu\.android\build-cache\dc2692329a0e1ff80f42f9301ceeec4388033198\output\AndroidManifest.xml:20:5-43
 	android:targetSdkVersion
 		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:9:9-38
 		INJECTED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml
@@ -41,19 +31,8 @@ ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:11:5-62
 		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:11:19-59
 application
 ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:13:5-147:19
-MERGED from [com.github.vilyever:socketclient:3.0.3] E:\Git\smallcollect\socketclient\build\intermediates\bundles\default\AndroidManifest.xml:12:5-15:19
-MERGED from [com.github.vilyever:AndroidResource:1.2.0] C:\Users\xiaotaozhu\.android\build-cache\2fd59091bb76ea6a206bd59dc54dfe9c37c1b163\output\AndroidManifest.xml:11:5-15:19
-MERGED from [com.github.vilyever:AndroidContextHolder:1.1.0] C:\Users\xiaotaozhu\.android\build-cache\cc08742bf212a66809ada1430b90dddd368682a6\output\AndroidManifest.xml:11:5-14:19
-MERGED from [com.github.vilyever:AndroidLogger:1.0.9] C:\Users\xiaotaozhu\.android\build-cache\823d3db56f26c620e09c22de0eef2a2326b39425\output\AndroidManifest.xml:11:5-15:19
-MERGED from [com.android.support:design:23.1.1] C:\Users\xiaotaozhu\.android\build-cache\9566daf36d129c859ec9663235d89df41f5d6733\output\AndroidManifest.xml:22:5-20
-MERGED from [com.github.vilyever:AndroidJsonModel:1.2.0] C:\Users\xiaotaozhu\.android\build-cache\976f46727193c1aa9f62bef0b61232a39ac56226\output\AndroidManifest.xml:11:5-14:19
-MERGED from [com.github.vilyever:AndroidReflectKit:1.1.0] C:\Users\xiaotaozhu\.android\build-cache\f8ec50f7abc5150b34e80ed97081ec55bdc2bfa7\output\AndroidManifest.xml:11:5-14:19
-MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\xiaotaozhu\.android\build-cache\df751525e1de243b6b48488d7f749faaa30e51bc\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\xiaotaozhu\.android\build-cache\dc2692329a0e1ff80f42f9301ceeec4388033198\output\AndroidManifest.xml:22:5-20
 	android:label
 		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:16:9-41
-	android:supportsRtl
-		ADDED from [com.github.vilyever:AndroidResource:1.2.0] C:\Users\xiaotaozhu\.android\build-cache\2fd59091bb76ea6a206bd59dc54dfe9c37c1b163\output\AndroidManifest.xml:14:9-35
 	android:allowBackup
 		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:14:9-35
 	android:icon
@@ -268,7 +247,6 @@ ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:155:2-77
 		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:155:19-75
 uses-permission#android.permission.INTERNET
 ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:156:2-64
-MERGED from [com.github.vilyever:socketclient:3.0.3] E:\Git\smallcollect\socketclient\build\intermediates\bundles\default\AndroidManifest.xml:10:5-67
 	android:name
 		ADDED from E:\Git\smallcollect\app\src\main\AndroidManifest.xml:156:19-61
 uses-permission#android.permission.ACCESS_NETWORK_STATE

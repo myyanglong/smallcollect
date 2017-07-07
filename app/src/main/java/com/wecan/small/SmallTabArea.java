@@ -19,8 +19,11 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.Button;
 import android.widget.ListView;
+import android.widget.ProgressBar;
 
 import com.wecan.Utils.ByteUtil;
+import com.wecan.Utils.PbswUtils;
+import com.wecan.Utils.ToastUtils;
 import com.wecan.domain.PreferencesService;
 import com.wecan.domain.SmallConfigs;
 import com.wecan.domain.WaterMeter;
@@ -45,7 +48,8 @@ public class SmallTabArea extends Activity implements OnClickListener, OnItemCli
     private Button btn_action, btn_clear;
     public ProgressDialog pialog;
     private Handler handler;
-
+    private byte[] deviceid;
+    private ProgressBar progressBar;
     @Override
     protected void onResume() {
         super.onResume();
@@ -104,10 +108,13 @@ public class SmallTabArea extends Activity implements OnClickListener, OnItemCli
     private void initView() {
         meterAdapter = new SmallAdapter(this, prservice.getActionId(), sev_cg.selectDevFromID());
         meter.setAdapter(meterAdapter);
-
+        progressBar=(ProgressBar) findViewById(R.id.progressBar);
         meter.setOnItemClickListener(this);
         btn_action.setOnClickListener(this);
         btn_clear.setOnClickListener(this);
+        this.findViewById(R.id.btn_soketok).setOnClickListener(this);
+        this.findViewById(R.id.btn_txt).setOnClickListener(this);
+
     }
 
     protected void onStart() {
@@ -152,36 +159,57 @@ public class SmallTabArea extends Activity implements OnClickListener, OnItemCli
                 sev_cg.clear_water(prservice.getActionId());
                 ShowProgressClearEnd("数据清除完成");
                 break;
+            case R.id.btn_txt:
+                byte[] css = {0, 1, (byte) 200, (byte) 0xC8, (byte) 200, 0, 0, 8};
+                byte cccs = cs(css);
+                break;
             case R.id.btn_soketok:
                 //上传数据到服务器
+                progressBar.setVisibility(View.VISIBLE);
                 List<WaterMeter> waterMeterList = new ArrayList<WaterMeter>();
                 ServiceSmall serviceSmall = new ServiceSmall(this);
                 waterMeterList = serviceSmall.selectWaterMeterFromID(prservice.getActionId(), false);
+                //  deviceid=ByteUtil.getInt(Integer.getInteger(prservice.getActionId()));//设备ID
+                deviceid = ByteUtil.getInt(154085);
                 List<byte[]> soketblist = new ArrayList<byte[]>();
-
                 for (int i = 0; i < waterMeterList.size(); ) {
                     //水表id
                     byte[] id = ByteUtil.getInt(Integer.getInteger(waterMeterList.get(i).id));
                     soketblist.add(id);
-                    //水表状态
+                    //水表状态 1个字节
                     byte[] sbzt = (waterMeterList.get(i).address).getBytes();
                     soketblist.add(sbzt);
-                    //瞬时流量
-                    byte[] rf = ByteUtil.getInt(waterMeterList.get(i).rf);
-                    soketblist.add(rf);
+                    //瞬时流量 1个字节
+                    byte rf = (byte) waterMeterList.get(i).rf;
+                    byte[] brf = {rf};
+                    soketblist.add(brf);
                     //累计流量
                     byte[] btotal = ByteUtil.putDouble(Double.parseDouble(waterMeterList.get(i).total));
                     soketblist.add(btotal);
                     i++;
                 }
-
-                byte[] data = ByteUtil.putbyte(soketblist);
+                //byte[] data = ByteUtil.putbyte(soketblist);
+                byte[] data;
+                data = new byte[2042];
+                for (int d = 0; d < 2042; d++) {
+                    data[d] = 6;
+                }
                 handler = new Handler() {
                     @Override
                     public void handleMessage(Message msg) {
                         // TODO Auto-generated method stub
                         //更新提示
                         Bundle b = msg.getData();
+                        if(b.getInt("yes")==1)
+                        {
+                            progressBar.setVisibility(View.GONE);
+                            ToastUtils.showLongToast(SmallTabArea.this,"上传数据成功");
+                        }
+                        else
+                        {
+                            progressBar.setVisibility(View.GONE);
+                            ToastUtils.showLongToast(SmallTabArea.this,"上传数据失败");
+                        }
                         //	ToastUtils.showLongToast(SoketActivity.this, b.getString("prompt"));
                     }
                 };
@@ -261,6 +289,45 @@ public class SmallTabArea extends Activity implements OnClickListener, OnItemCli
         pialog.show();
     }
 
+    /**
+     * @param csbyte 需要求CS集合
+     * @return CS校验值
+     */
+    public byte cs(byte[] csbyte) {
+        byte cs = 0;
+        for (int i = 0; i < csbyte.length; i++) {
+            cs = (byte) (cs + csbyte[i]);
+        }
+        return cs;
+    }
+
+    /**
+     * @param packlength int长度
+     * @return byte长度
+     */
+    public byte[] packagelength(int packlength) {
+        byte[] length = new byte[2];
+        length[0] = (byte) (packlength >> 8);
+        length[1] = (byte) (packlength & 0xFF);
+        return length;
+    }
+
+    /**
+     * 帧序号
+     *
+     * @param num
+     * @return
+     */
+    public byte[] FrameNumber(int num) {
+        byte[] fnum = new byte[2];
+        fnum[0] = 0;
+        if (num > 255) {
+            fnum[0] = (byte) ((num & 0xFF00) >> 8);
+        }
+        fnum[1] = (byte) (num & 0xff);
+        return fnum;
+    }
+
     class MyThread extends Thread {
         private byte[] data;
 
@@ -270,31 +337,102 @@ public class SmallTabArea extends Activity implements OnClickListener, OnItemCli
 
         @Override
         public void run() {
-
+            int num = 0;//帧序号
             //上传数据到服务器
+            //包头 起始字符（68H）,长度L(L0 L1),起始字符（68H）,协议版本VER(主版本号,次版本号),AFN功能码,包控制域（帧控制符,帧序号） 9个字符
+            // + 设备ID+TAG值+数据长度  deviceid:设备id TAG值：0x02
             try {
-                int bytesum = 10 * 1024;
-                int datasum = 9 + 2 + 4 + 1 + 2 + 15;
-                int soketsum = 1024 - datasum;
-                for (int i = 0; bytesum / soketsum < i; i++) {
-                    //设置服务器地址
-                    Socket clientSocket = new Socket("183.230.182.141", 11600);
-                    clientSocket.setSoTimeout(5000);
-
-//					ByteBuffer buffer = ByteBu3ffer.allocate(1024);
-//					buffer.order(ByteOrder.LITTLE_ENDIAN);
-                    byte[] title = {0x68, 0x0, 0x35, 0x68, 0x07, 0x01, 0x01, 0x08, 0x00};//包头
-                    byte[] tail = {0, 0x16};//包尾
-                    //计算CS校验和 title+data+tail 上传的byte
+                Socket clientSocket = new Socket("183.230.182.141", 11500);
+                clientSocket.setSoTimeout(5000);
+                if (data.length < 1024 - (9 + 2 + 4 + 1 + 2)) {
+                    int dataL = data.length;//数据长度
+                    byte[] dataL1 = packagelength(dataL);
+                    byte[] tagtitle = {0x02, dataL1[0], dataL1[1]};//Tag值 水表数据长度
+                    byte[] csdata = new byte[dataL + 7];
+                    System.arraycopy(deviceid, 0, csdata, 0, 4);
+                    System.arraycopy(tagtitle, 0, csdata, 4, 3);
+                    System.arraycopy(data, 0, csdata, 7, dataL);
+                    byte[] socketdata = PbswUtils.encode(true, true, num, csdata);
                     OutputStream osSend = clientSocket.getOutputStream();
-                    osSend.write(data);
+                    osSend.write(socketdata);
                     osSend.flush();
+
+                } else if (data.length > 1024 - (9 + 2 + 4 + 1 + 2)) {
+                    int datarum = data.length / 994;
+                    int dataRemainder = data.length % 994;//余下的不够1024-(9+2+4+1+2)的包长度
+                    if (dataRemainder > 0) {
+                        dataRemainder = dataRemainder + 7;
+                        datarum++;
+                    }
+                    for (int i = 0; i < datarum; i++) {
+                        if (i + 1 == datarum) {
+                            //最后一包
+                            byte[] dataL1 = packagelength(dataRemainder);
+                            byte[] tagtitle = {0x02, dataL1[0], dataL1[1]};//Tag值 水表数据长度
+                            byte[] datai = new byte[dataRemainder-7];
+                            System.arraycopy(data, i*994, datai, 0, dataRemainder-7);
+                            byte[] csdata = new byte[dataRemainder];
+                            System.arraycopy(deviceid, 0, csdata, 0, 4);
+                            System.arraycopy(tagtitle, 0, csdata, 4, 3);
+                            System.arraycopy(datai, 0, csdata, 7, dataRemainder-7);
+                            byte[] socketdata = PbswUtils.encode(false, true, num, csdata);
+                            OutputStream osSend = clientSocket.getOutputStream();
+                            osSend.write(socketdata);
+                            osSend.flush();
+
+                        } else {
+                            if (i == 0) {
+//                                //第一包
+                                byte[] dataL1 = packagelength(994);
+                                byte[] tagtitle = {0x02, dataL1[0], dataL1[1]};//Tag值 水表数据长度
+                                byte[] datai = new byte[994];
+                                System.arraycopy(data, i*994, datai, 0, 994);
+
+                                byte[] csdata = new byte[1001];
+                                System.arraycopy(deviceid, 0, csdata, 0, 4);
+                                System.arraycopy(tagtitle, 0, csdata, 4, 3);
+                                System.arraycopy(datai, 0, csdata, 7, 994);
+                                byte[] socketdata = PbswUtils.encode(true, false, num, csdata);
+                                OutputStream osSend = clientSocket.getOutputStream();
+                                osSend.write(socketdata);
+                                osSend.flush();
+
+                                num++;
+
+                            } else {
+                                //中间包
+                                byte[] dataL1 = packagelength(994);
+                                byte[] tagtitle = {0x02, dataL1[0], dataL1[1]};//Tag值 水表数据长度
+                                byte[] datai = new byte[994];
+                                System.arraycopy(data, i*994, datai, 0, 994);
+                                byte[] csdata = new byte[1001];
+                                System.arraycopy(deviceid, 0, csdata, 0, 4);
+                                System.arraycopy(tagtitle, 0, csdata, 4, 3);
+                                System.arraycopy(datai, 0, csdata, 7, 994);
+                                byte[] socketdata = PbswUtils.encode(false, false, num, csdata);
+                                OutputStream osSend = clientSocket.getOutputStream();
+                                osSend.write(socketdata);
+                                osSend.flush();
+
+                                num++;
+                            }
+                        }
+                    }
                 }
+                Message message = new Message();
+                clientSocket.close();
+                Bundle bundle=new Bundle();
+                bundle.putInt("yes",1);
+                message.setData(bundle);
+                handler.sendMessage(message);
             } catch (Exception e) {
-
-
+                e.printStackTrace();
+                Message message = new Message();
+                Bundle bundle=new Bundle();
+                bundle.putInt("yes",0);
+                message.setData(bundle);
+                handler.sendMessage(message);
             }
-
             super.run();
         }
     }

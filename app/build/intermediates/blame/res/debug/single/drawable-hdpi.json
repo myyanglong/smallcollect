@@ -44,12 +44,12 @@
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\m_i_bg.png"
     },
     {
-        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\login_logo2.png",
-        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\login_logo2.png"
-    },
-    {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\small_topbar_bt.png",
         "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\small_topbar_bt.png"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\login_logo2.png",
+        "source": "E:\\Git\\smallcollect\\app\\src\\main\\res\\drawable-hdpi\\login_logo2.png"
     },
     {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\s_setting_z.png",

@@ -1,0 +1,4 @@
+#Thu Jul 06 15:26:16 CST 2017
+base.0=E\:\\Git\\smallcollect\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_2
+renamed.0=classes.dex
+file.0=E\:\\Git\\smallcollect\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_2\\classes.dex

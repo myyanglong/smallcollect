@@ -1,11 +1,11 @@
 [
     {
-        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_scrubber_primary_mtrl_alpha.9.png",
-        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable-mdpi\\abc_scrubber_primary_mtrl_alpha.9.png"
-    },
-    {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_textfield_search_default_mtrl_alpha.9.png",
         "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable-mdpi\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\df751525e1de243b6b48488d7f749faaa30e51bc\\output\\res\\drawable-mdpi\\abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
         "merged": "E:\\Git\\smallcollect\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_popup_background_mtrl_mult.9.png",

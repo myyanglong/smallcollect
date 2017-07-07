@@ -898,7 +898,7 @@ int id action_menu_presenter 0x7f0c0003
 int id action_mode_bar 0x7f0c0057
 int id action_mode_bar_stub 0x7f0c0056
 int id action_mode_close_button 0x7f0c003c
-int id action_settings 0x7f0c0128
+int id action_settings 0x7f0c0129
 int id activity_chooser_view_content 0x7f0c003d
 int id alertTitle 0x7f0c0049
 int id always 0x7f0c0032
@@ -928,6 +928,7 @@ int id btn_clear 0x7f0c011f
 int id btn_floor 0x7f0c0112
 int id btn_save 0x7f0c00b9
 int id btn_soketok 0x7f0c0120
+int id btn_txt 0x7f0c0121
 int id btn_water_del 0x7f0c0116
 int id buttonPanel 0x7f0c0044
 int id button_cancel 0x7f0c008a
@@ -947,7 +948,7 @@ int id chronometer 0x7f0c00e6
 int id clip_horizontal 0x7f0c002b
 int id clip_vertical 0x7f0c002c
 int id collapseActionView 0x7f0c0033
-int id content 0x7f0c0125
+int id content 0x7f0c0126
 int id contentPanel 0x7f0c004a
 int id cpright 0x7f0c00da
 int id custom 0x7f0c0050
@@ -965,7 +966,7 @@ int id data_time_text 0x7f0c009f
 int id data_total 0x7f0c00a1
 int id data_type 0x7f0c00c7
 int id data_unit 0x7f0c00a2
-int id datalistView 0x7f0c0126
+int id datalistView 0x7f0c0127
 int id decor_content_parent 0x7f0c0058
 int id default_activity_button 0x7f0c0040
 int id delData 0x7f0c00d1
@@ -990,7 +991,7 @@ int id fill 0x7f0c002d
 int id fill_horizontal 0x7f0c002e
 int id fill_vertical 0x7f0c0021
 int id fixed 0x7f0c0037
-int id guide_picture 0x7f0c0127
+int id guide_picture 0x7f0c0128
 int id helptext 0x7f0c00c4
 int id holder 0x7f0c00ed
 int id home 0x7f0c0004
@@ -1023,9 +1024,9 @@ int id llayout05 0x7f0c006f
 int id login 0x7f0c00d3
 int id login_name 0x7f0c00cf
 int id login_pwd 0x7f0c00d0
-int id ly_command_export_data 0x7f0c0121
-int id ly_command_export_meter 0x7f0c0122
-int id ly_command_init 0x7f0c0123
+int id ly_command_export_data 0x7f0c0122
+int id ly_command_export_meter 0x7f0c0123
+int id ly_command_init 0x7f0c0124
 int id m_b_layout 0x7f0c00d5
 int id m_cb 0x7f0c0102
 int id m_d_layout 0x7f0c00d7
@@ -1163,7 +1164,7 @@ int id textView 0x7f0c00f9
 int id textView1 0x7f0c007f
 int id textView2 0x7f0c0081
 int id textView3 0x7f0c0084
-int id textView4 0x7f0c0124
+int id textView4 0x7f0c0125
 int id time 0x7f0c00e5
 int id title 0x7f0c0043
 int id title_btn 0x7f0c00ff
